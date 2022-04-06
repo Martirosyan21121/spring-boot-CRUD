@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/weapons_shopping?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root2000
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+# don`t use
+#TODO: - create
+#  it,s very bade
+server:
+  error:
+    whitelabel:
+      enabled: false
